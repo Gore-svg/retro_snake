@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro Snake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell">
+    <div class="phone">
+      <div class="screen">
+        <header class="hud">
+          <span>SCORE <b id="score">00000</b></span>
+          <span>HI-SCORE <b id="highScore">00000</b></span>
+        </header>
+
+        <div id="gameBoard" class="game-board" aria-label="Snake game board"></div>
+
+        <div id="message" class="message">
+          <div class="message-title">SNAKE</div>
+          <div>PRESS SPACE TO START</div>
+          <div class="controls">W A S D TO MOVE</div>
+        </div>
+      </div>
+
+      <div class="phone-label">RETRO SNAKE</div>
+    </div>
+
+    <p class="hint">WASD to move · SPACE to start/pause · R to restart</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
